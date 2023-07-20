@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 export const Footer = () => {
   return (
     <>
-      <Box className={styles.footer}>
+      <Box className={styles.footer} sx={{ mb: { xs: 10 } }}>
         <Box className={styles.top}>
           <Box>
             <Typography sx={{ fontSize: "35px", fontWeight: "700" }}>
@@ -20,7 +20,7 @@ export const Footer = () => {
               Choose your favourite destination
             </Typography>
           </Box>
-          <Box sx={{mx:-1 }}>
+          <Box sx={{ mx: -1 }}>
             <IconButton sx={{ color: "white" }}>
               <FacebookIcon />
             </IconButton>
