@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 80px;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+.top {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bottom {
+  width: 80%;
+  margin: auto;
+  padding: 30px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.navlinks {
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  padding: 1px;
+}

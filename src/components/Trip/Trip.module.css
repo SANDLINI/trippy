@@ -1,0 +1,17 @@
+.tripData {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image {
+  height: 240px;
+  position: relative ;
+  transition: 0.3 ease-in-out;
+}
+
+.image :hover {
+    transform: scale(1.3);
+}

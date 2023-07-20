@@ -1,0 +1,19 @@
+.toolBar {
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.85;
+}
+
+.navLinkBox {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+}
+
+.navLinks {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
