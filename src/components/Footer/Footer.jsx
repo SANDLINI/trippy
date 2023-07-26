@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 export const Footer = () => {
   return (
     <>
-      <Box className={styles.footer} sx={{ mb: { xs: 10 } }}>
+      <Box className={styles.footer} sx={{ mb: { xs: 10, sm:0 } }}>
         <Box className={styles.top}>
           <Box>
             <Typography sx={{ fontSize: "35px", fontWeight: "700" }}>

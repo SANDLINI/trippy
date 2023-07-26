@@ -59,9 +59,7 @@ export const Navbar = () => {
               style={navLinkActive}
               className={styles.navLinks}
               to={"/Contact"}
-            >
-             
-            </NavLink>
+            ></NavLink>
           </Box>
         </Toolbar>
       </AppBar>

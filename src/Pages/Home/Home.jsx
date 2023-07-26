@@ -5,7 +5,7 @@ import image from "../../assets/12.jpg";
 import { Destination } from "../../components/Destination/Destination";
 import { Trip } from "../../components/Trip/Trip";
 import { Footer } from "../../components/Footer/Footer";
-import { PageTabs } from "../../components/Tabs/PageTabs";
+import { PageTabs } from "../../components/NavbarInMobile/PageTabs";
 export const Home = () => {
   return (
     <>

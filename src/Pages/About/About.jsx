@@ -3,8 +3,8 @@ import { Navbar } from "../../components/Navbar/Navbar";
 import { Hero } from "../../components/Hero/Hero";
 import image from "../../assets/night.jpg";
 import { AboutUs } from "../../components/AboutUs/AboutUs";
-import {Footer} from '../../components/Footer/Footer'
-import { PageTabs } from "../../components/Tabs/PageTabs";
+import { Footer } from "../../components/Footer/Footer";
+import { PageTabs } from "../../components/NavbarInMobile/PageTabs";
 export const About = () => {
   return (
     <>
@@ -16,10 +16,9 @@ export const About = () => {
         text=""
         btnText="Travel Plan"
       />
-      <AboutUs/>
-      <Footer/>
-      <PageTabs/>
-    
+      <AboutUs />
+      <Footer />
+      <PageTabs />
     </>
   );
 };

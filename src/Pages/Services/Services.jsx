@@ -4,7 +4,7 @@ import { Hero } from "../../components/Hero/Hero";
 import { Trip } from "../../components/Trip/Trip";
 import image from "../../assets/hamburg.jpg";
 import { Footer } from "../../components/Footer/Footer";
-import { PageTabs } from "../../components/Tabs/PageTabs";
+import { PageTabs } from "../../components/NavbarInMobile/PageTabs";
 
 export const Services = () => {
   return (

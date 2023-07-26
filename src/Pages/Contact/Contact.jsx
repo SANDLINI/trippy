@@ -4,7 +4,7 @@ import { Hero } from "../../components/Hero/Hero";
 import image from "../../assets/2.jpg";
 import { ContactForm } from "../../components/ContactForm/ContactForm";
 import { Footer } from "../../components/Footer/Footer";
-import { PageTabs } from "../../components/Tabs/PageTabs";
+import { PageTabs } from "../../components/NavbarInMobile/PageTabs";
 
 export const Contact = () => {
   return (
@@ -19,7 +19,7 @@ export const Contact = () => {
       />
 
       <ContactForm />
-      <PageTabs/>
+      <PageTabs />
       <Footer />
     </>
   );
