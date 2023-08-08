@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./PageTabs.module.css";
 
-import { AppBar, Button, Box, Toolbar } from "@mui/material";
+import { AppBar, Box, Toolbar } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 export const PageTabs = () => {

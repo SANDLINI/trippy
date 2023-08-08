@@ -2,7 +2,6 @@ import React from "react";
 import { Typography, Grid } from "@mui/material";
 import styles from "../Destination/Destination.module.css";
 
-
 export const DestinationData = ({ heading, text, image1, image2 }) => {
   return (
     <>
@@ -14,7 +13,7 @@ export const DestinationData = ({ heading, text, image1, image2 }) => {
                 textAlign: "center",
                 fontSize: { xs: "30px", sm: "30px" },
                 fontWeight: "600",
-                mt: { xs: 5, md: 12},
+                mt: { xs: 5, md: 12 },
               }}
             >
               {heading}
